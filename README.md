@@ -13,13 +13,13 @@ No version folder is a symblink of current version
 Installaton
 -----------
 
-sudo su
-cd /opt
-git clone
-chmod a+x /opt/XamppSwitcher/xamppSwitcher.php
-ln -s /opt/XamppSwitcher/xamppSwitcher.php /usr/bin/xamppSwitcher
+	sudo su
+	cd /opt
+	git clone
+	chmod a+x /opt/XamppSwitcher/xamppSwitcher.php
+	ln -s /opt/XamppSwitcher/xamppSwitcher.php /usr/bin/xamppSwitcher
 
 Usage
 -----
 
-xamppSwitcher VERSION [XAMPP_ARGUMENTS]
+	xamppSwitcher VERSION [XAMPP_ARGUMENTS]
